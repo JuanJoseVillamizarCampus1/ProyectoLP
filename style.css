@@ -75,6 +75,7 @@ svg{
     #globa,#globb, #globc{
         width:40%;
         height: 70%;
+        background-color: aqua;
     }
     #items{
         background-color: rgba(0, 0, 0, 0);
@@ -87,17 +88,17 @@ svg{
 
     #globa{
         float: left;
-        margin-top: -550px;
+        margin-top: -1100px;
         margin-left: 100px;
     }
     #globb{
         float: left;
-        margin-top: -450px;
+        margin-top: -950px;
         margin-left: 200px;
     }
     #globc{
         float: left;
-        margin-top: -350px;
+        margin-top: -750px;
         margin-left: 300px;
         z-index: 10;
     }
@@ -123,6 +124,7 @@ svg{
         height: 140%;
         z-index: 10;
         position: relative;
+        margin-left: 500px;
         transform: translate(-25%, -40%);
     }
     
@@ -137,7 +139,7 @@ svg{
     
 
     #infiniti{
-        border: solid 7px #203C1380;    
+        border: solid 7px #203C1380; 
     }
     .footer{
         display: flex;
